@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+
 
 export default () => (
   <div style = {{margin : '3rem auto', maxWidth : 600}}>
@@ -24,5 +26,7 @@ export default () => (
       </blockquote>
     </div>
     <p>Posted April 09, 2011</p>
+    <p>Link to about Containers</p>
+    <Link to = "/about-css-modules/">Here</Link>
   </div>
 )

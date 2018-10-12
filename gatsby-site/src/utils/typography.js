@@ -1,8 +1,6 @@
-import Typography from "typography"
+import Typography from 'typography'
+import sternGroveTheme from 'typography-theme-stern-grove'
 
-// import bootstrapTheme from "typography-theme-bootstrap"
-import lawtonTheme from "typography-theme-lawton"
-
-const typography = new Typography(lawtonTheme)
+const typography = new Typography(sternGroveTheme)
 
 export default typography
