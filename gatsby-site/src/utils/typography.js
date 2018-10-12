@@ -1,6 +1,5 @@
 import Typography from "typography"
 
-import Typography from "typography"
 // import bootstrapTheme from "typography-theme-bootstrap"
 import lawtonTheme from "typography-theme-lawton"
 
