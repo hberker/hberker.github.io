@@ -4,16 +4,33 @@
     align-items: center;
     margin: 0 auto 12px auto;
 }
-#header{
-
-    text-decoration: overline;
+a {
+     color: inherit; 
+} 
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.post {
+    font : "Open Sans";
 
 }
-#posts{
-    display: flex; 
-    width: 50%; 
-    height: 200px; 
-    margin: auto; 
-    border-radius: 10px; 
-    border: 3px dashed #1c87c9; 
+h2.post{
+
+    margin: 0;
+    padding:0px;
+    font-size: 1.5em;
 }
+h3.post{
+    margin: 3px;
+    padding:3px;
+    font-size: 1.3em;
+}
+p.post{
+    font-size: 1.0em;
+
+
+}
+
