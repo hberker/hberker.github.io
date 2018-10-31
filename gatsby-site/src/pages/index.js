@@ -43,7 +43,7 @@ export default () =>
           lang = "Java"
           excerpt ="In this project I recreated the classic game of snake in Java. 
           The game is simple: you control a 2-D snake made out of blocks, and direct
-           it across the screen as you try to consume apples. Delete this"
+           it across the screen as you try to consume apples. Ne"
           link = "https://github.com/hberker/Snake"
         />
       </ul>
