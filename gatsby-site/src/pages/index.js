@@ -23,7 +23,8 @@ export default () =>
           name = "post" 
           title = "Cryptography Project"
           lang = "C++"
-          excerpt ="This project uses three types of ciphers. The first is a Caesar, the second a Vignere, and the third a Polybius."
+          excerpt ="This project uses three types of ciphers. The first 
+          is a Caesar, the second a Vignere, and the third a Polybius."
           link = "https://github.com/hberker/Cryptography-Project"
         />
         <Post
@@ -35,7 +36,16 @@ export default () =>
                     To do this you must connect it through discord."
           link = "https://github.com/hberker/Discord-Challonge-Bot"
         />
-
+        <Post
+          className = "post"
+          name = "post" 
+          title = "Snake"
+          lang = "Java"
+          excerpt ="In this project I recreated the classic game of snake in Java. 
+          The game is simple: you control a 2-D snake made out of blocks, and direct
+           it across the screen as you try to consume apples"
+          link = "https://github.com/hberker/Snake"
+        />
       </ul>
   </Layout> 
 )  

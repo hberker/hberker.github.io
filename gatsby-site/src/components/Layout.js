@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styles from "../pages/index.css"
 const ListLink = props => (
     <li style = {{display : 'inline-block', marginRight : '1rem'}}>
-        <Link to={props.to}>{props.children}</Link>
+        <Link to={props.to} target="_blank">{props.children}</Link>
     </li>
 )
 
