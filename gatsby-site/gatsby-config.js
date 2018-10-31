@@ -1,6 +1,6 @@
 module.exports = 
 {
-  pathPrefix: "hberker/gatsby-site/src/pages",
+  pathPrefix: "",
 
     plugins: 
     [

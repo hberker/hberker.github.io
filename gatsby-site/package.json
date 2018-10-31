@@ -18,6 +18,8 @@
     "typography-theme-bootstrap": "^0.16.7",
     "typography-theme-lawton": "^0.15.10",
     "typography-theme-stern-grove": "^0.15.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
-  
 }
