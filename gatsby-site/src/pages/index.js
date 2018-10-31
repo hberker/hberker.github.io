@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import Layout from "./../components/Layout"
 import styles from "./index.css"
 
-
+// #00A0C6;
 const Post = props => (
   <div className={props.name}>
-    <br></br>
+    
     <h2 align="center" className={props.name}><strong><a href = {props.link}><u>{props.title}</u></a></strong></h2>
     <h3 align="center" className={props.name}><b><em> — </em></b>{props.lang}<b><em> — </em></b></h3>
     <p align="center" className={props.name}>{props.excerpt}</p>
@@ -15,7 +15,8 @@ const Post = props => (
 
 export default () => 
 (
-  <Layout style={{styles}}> 
+  <Layout className = "layout" style={{styles}}> 
+      <hr></hr>
       <ul>
         <Post
           className = "post"

@@ -9,12 +9,6 @@ module.exports =
           pathToConfigModule: `src/utils/typography.js`,
         },
       },
-      {
-        resolve: `Underline`,
-        options: 
-        {
-          pathToConfigModule: `src/utils/underline.js`,
-        },
-      },
+      
     ],
 }
