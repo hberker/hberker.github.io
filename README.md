@@ -1,3 +1,2 @@
-# LearnJs
-This is a website 
-second line here
+# A website 
+Website using javascript and Gatsby.js
