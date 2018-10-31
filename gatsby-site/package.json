@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
@@ -18,4 +19,5 @@
     "typography-theme-lawton": "^0.15.10",
     "typography-theme-stern-grove": "^0.15.10"
   }
+  
 }
