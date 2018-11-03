@@ -4,22 +4,33 @@ import Layout from "./../components/Layout"
 import styles from "./index.css"
 //Build Command: gatsby build --prefix-paths && gh-pages -d public -b master
 // #00A0C6;
+
 const Post = props => (
   <div className={props.name}>
-    
-    <h2 align="center" className={props.name}><strong><a href = {props.link}><u>{props.title}</u></a></strong></h2>
-    <h3 align="center" className={props.name}><b><em> — </em></b>{props.lang}<b><em> — </em></b></h3>
-    <p align="center" className={props.name}>{props.excerpt}</p>
+    <h2 align="center" class={props.name}><strong><a href = {props.link}><u>{props.title}</u></a></strong></h2>
+    <h3 align="center" class={props.name}><b><em> — </em></b>{props.lang}<b><em> — </em></b></h3>
+    <p align="center" class={props.name}>{props.excerpt}</p>
   </div>
 )
 
 export default () => 
 (
-  <Layout className = "layout" style={{styles}}> 
-      <hr></hr>
+  //<Layout className = "layout" style={{styles}}> \
+  <React.Fragment>
+    
+    <Layout class = "Header" style={{styles}}> 
+         
+    </Layout> 
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    
+    <div class = "bodytext" style={{styles}}>
       <ul>
         <Post
-          className = "post"
           name = "post" 
           title = "Cryptography Project"
           lang = "C++"
@@ -43,9 +54,13 @@ export default () =>
           lang = "Java"
           excerpt ="In this project I recreated the classic game of snake in Java. 
           The game is simple: you control a 2-D snake made out of blocks, and direct
-           it across the screen as you try to consume apples. Click the link to be taken to the repo."
+          it across the screen as you try to consume apples. Click the link to be taken to the repo."
           link = "https://github.com/hberker/Snake"
         />
       </ul>
-  </Layout> 
+    </div>
+  </React.Fragment>
+  
+  
+  //</Layout> 
 )  
