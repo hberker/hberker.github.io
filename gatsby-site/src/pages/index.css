@@ -1,55 +1,64 @@
+
 body{
-    background: rgba(170, 170, 170, 0.171) ;
-    font : "Open Sans";
+    background-image: url("../Backgrounds/tree_bark/tree_bark.png");
+    background-color: white;
 }
-#bodytext {
+.bodytext{
     display: flex;
-    align-items: center;
-    margin: 0 auto 12px auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-width : 650; 
+    margin:0 auto;
 }
 
-.layout{
-    background: white;
+.Header, .bodytext{
+    font-family: 'Courier New', Courier, monospace;
 }
+h2.post,h3.post {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
 
 a {
-     color: inherit; 
+    color: inherit; 
 } 
+.title{
+    color: white ;
+}
 a:hover 
 {
-     color: cornflowerblue;
-     text-decoration:none; 
-     cursor:pointer;  
+    color: cornflowerblue;
+    text-decoration:none; 
+    cursor:pointer;  
 }
-div.post{
-    outline: 5px solid cornflowerblue;
-    border : 2px transparent black;
-    margin: 30px;
-    padding: 2px;
-    
-}
-.post {
-    font : "Open Sans";
 
-
-}
-h2.post,h3.post,p.post{
+div.bodytext, .post{
     color: black;
+    max-width: 40vw;
+
 }
+
 h2.post{
 
-    margin: 10px;
-    padding:5px;
+    margin: 1px;
+    padding:1px;
     font-size: 1.5em;
 }
 h3.post{
-    margin: 4px;
-    padding:4px;
+    margin: 1px;
+    padding:1px;
     font-size: 1.3em;
 }
 p.post{
-    font-size: 1.0em;
-
-
+    font-size: 1.2em;
 }
-
+.Header{
+    color: white ;
+    background-color: #000000da; 
+    position: fixed;
+    width: 100%;
+}
