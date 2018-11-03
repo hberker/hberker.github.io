@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "./../components/Layout"
 import styles from "./index.css"
+
 //Build Command: gatsby build --prefix-paths && gh-pages -d public -b master
 // #00A0C6;
 
