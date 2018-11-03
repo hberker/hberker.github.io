@@ -9,18 +9,15 @@ const ListLink = props => (
 
 export default ({ children }) => (
     <div class = "Header" style={{styles}}>
-<<<<<<< HEAD
       <br></br>
       <header class = "Header"  style={{ marginBottom: `1.5rem`, styles}}>
-        <Link class = "Header" to="/" style={{ textShadow: `none` }}>
-=======
-      <hr></hr>
+        <Link class = "Header" to="/" style={{ textShadow: `none` }}>Hosni Berker</Link>
+        <hr></hr>
       <header  style={{ marginBottom: `1.5rem`, styles}}>
         <Link class = "title" to="/" style={{ textShadow: `none` }}>
->>>>>>> parent of 8642aac... fixes issue with link color
           <h3 class = "title" style={{ display: `inline`,width: '70%', styles }}>Hosni Berker</h3>
         </Link>
-        <ul   style={{ listStyle: `none`, float: `right`,styles }}>
+        <ul  style={{ listStyle: `none`, float: `right`,styles }}>
           <ListLink class = "Header" style={{styles}} to="/">Home</ListLink>
           <ListLink class = "Header" style={{styles}} to="/about/">About</ListLink>
           <ListLink class = "Header" style={{styles}} to="/contact/">Contact</ListLink>
