@@ -9,15 +9,15 @@ const ListLink = props => (
 
 export default ({ children }) => (
     <div class = "Header" style={{styles}}>
-      <hr></hr>
+      <br></br>
       <header class = "Header"  style={{ marginBottom: `1.5rem`, styles}}>
         <Link class = "Header" to="/" style={{ textShadow: `none` }}>
           <h3 class = "title" style={{ display: `inline`,width: '70%', styles }}>Hosni Berker</h3>
         </Link>
-        <ul style={{ listStyle: `none`, float: `right`,styles }}>
-          <ListLink style={{font : "Open Sans"}} to="/">Home</ListLink>
-          <ListLink style={{font : "Open Sans"}} to="/about/">About</ListLink>
-          <ListLink style={{font : "Open Sans"}} to="/contact/">Contact Me</ListLink>
+        <ul   style={{ listStyle: `none`, float: `right`,styles }}>
+          <ListLink class = "Header" style={{styles}} to="/">Home</ListLink>
+          <ListLink class = "Header" style={{styles}} to="/about/">About</ListLink>
+          <ListLink class = "Header" style={{styles}} to="/contact/">Contact</ListLink>
         </ul>
       </header>
       {children}

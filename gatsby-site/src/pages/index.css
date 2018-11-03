@@ -14,7 +14,7 @@ body{
     margin:0 auto;
 }
 
-.Header, .bodytext{
+.Header, .bodytext, Link.Header{
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
@@ -23,11 +23,10 @@ h2.post,h3.post {
     color: black;
 }
 
+a{
+    color: initial;
+}
 
-
-a {
-    color: inherit; 
-} 
 
 a:hover 
 {
@@ -57,7 +56,7 @@ h3.post{
 p.post{
     font-size: 1.2em;
 }
-.title{
+.title, a.Header{
     color: white; 
 }
 .title:hover{
@@ -65,12 +64,9 @@ p.post{
     text-decoration:none; 
     cursor:pointer;  
 }
-Layout.Header{
+.Header{
     background-color: #000000da;
     color: white;
-}
-.Header{
-    color: white ;
      
     position: fixed;
     width: 100%;
