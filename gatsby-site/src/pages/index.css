@@ -16,6 +16,7 @@ body{
 
 .Header, .bodytext{
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 h2.post,h3.post {
     font-family: Impact, Charcoal, sans-serif;
@@ -56,10 +57,12 @@ p.post{
     font-size: 1.2em;
 }
 .title{
-    color: white;
+    color: white; 
 }
 .title:hover{
     color: cornflowerblue;
+    text-decoration:none; 
+    cursor:pointer;  
 }
 .Header{
     color: white ;

@@ -10,7 +10,7 @@ const ListLink = props => (
 export default ({ children }) => (
     <div class = "Header" style={{styles}}>
       <hr></hr>
-      <header  style={{ marginBottom: `1.5rem`, styles}}>
+      <header class = "Header"  style={{ marginBottom: `1.5rem`, styles}}>
         <Link class = "Header" to="/" style={{ textShadow: `none` }}>
           <h3 class = "title" style={{ display: `inline`,width: '70%', styles }}>Hosni Berker</h3>
         </Link>
