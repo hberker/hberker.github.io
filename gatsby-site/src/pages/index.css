@@ -28,15 +28,12 @@ a{
 }
 
 
-<<<<<<< HEAD
-=======
 a {
     color: inherit; 
 } 
 .title{
     color: white ;
 }
->>>>>>> parent of 8642aac... fixes issue with link color
 a:hover 
 {
     color: cornflowerblue;
@@ -64,7 +61,6 @@ h3.post{
 p.post{
     font-size: 1.2em;
 }
-<<<<<<< HEAD
 .title, a.Header{
     color: white; 
 }
@@ -73,8 +69,7 @@ p.post{
     text-decoration:none; 
     cursor:pointer;  
 }
-=======
->>>>>>> parent of 8642aac... fixes issue with link color
+
 .Header{
     background-color: #000000da;
     color: white;
