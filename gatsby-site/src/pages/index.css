@@ -26,12 +26,11 @@ h2.post,h3.post {
 a {
     color: inherit; 
 } 
-.title{
-    color: white ;
-}
+
 a:hover 
 {
     color: cornflowerblue;
+
     text-decoration:none; 
     cursor:pointer;  
 }
@@ -55,6 +54,12 @@ h3.post{
 }
 p.post{
     font-size: 1.2em;
+}
+.title{
+    color: white;
+}
+.title:hover{
+    color: cornflowerblue;
 }
 .Header{
     color: white ;

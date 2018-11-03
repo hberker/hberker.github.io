@@ -11,7 +11,7 @@ export default ({ children }) => (
     <div class = "Header" style={{styles}}>
       <hr></hr>
       <header  style={{ marginBottom: `1.5rem`, styles}}>
-        <Link class = "title" to="/" style={{ textShadow: `none` }}>
+        <Link class = "Header" to="/" style={{ textShadow: `none` }}>
           <h3 class = "title" style={{ display: `inline`,width: '70%', styles }}>Hosni Berker</h3>
         </Link>
         <ul style={{ listStyle: `none`, float: `right`,styles }}>
