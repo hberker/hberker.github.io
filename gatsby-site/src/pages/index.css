@@ -20,6 +20,7 @@ body{
 }
 h2.post,h3.post {
     font-family: Impact, Charcoal, sans-serif;
+    color: black;
 }
 
 
@@ -64,9 +65,13 @@ p.post{
     text-decoration:none; 
     cursor:pointer;  
 }
+Layout.Header{
+    background-color: #000000da;
+    color: white;
+}
 .Header{
     color: white ;
-    background-color: #000000da; 
+     
     position: fixed;
     width: 100%;
 }
