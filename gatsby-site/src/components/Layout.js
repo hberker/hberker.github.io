@@ -17,7 +17,7 @@ export default ({ children }) => (
         <ul style={{ listStyle: `none`, float: `right`,styles }}>
           <ListLink style={{font : "Open Sans"}} to="/">Home</ListLink>
           <ListLink style={{font : "Open Sans"}} to="/about/">About</ListLink>
-          <ListLink style={{font : "Open Sans"}} to="/contact/">Contact</ListLink>
+          <ListLink style={{font : "Open Sans"}} to="/contact me/">Contact</ListLink>
         </ul>
       </header>
       {children}
