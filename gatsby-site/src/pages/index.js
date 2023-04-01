@@ -30,6 +30,8 @@ export default () =>
 
     
     <div class = "bodytext" style={{styles}}>
+      <h1>Weclome to my website</h1>
+      <p>my name is Hosni and I am currently senior at the university of Michigan</p>
       <ul>
         <Post
           name = "post" 
